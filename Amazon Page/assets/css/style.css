@@ -1,0 +1,136 @@
+/* BASIC PAGE STYLES */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header,
+footer {
+  background-color: #222f3f;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+header,
+nav,
+main {
+  padding: 0 20px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.align {
+  display: inline-block;
+}
+
+nav,
+footer .btp {
+  background-color: #364759;
+  height: 35px;
+  padding-top: 20px;
+}
+
+/* HEADER & NAV*/
+header img {
+  width: 150px;
+}
+
+nav {
+  height: 30px;
+  padding-top: 15px;
+}
+
+nav a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN */
+
+main a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2e967c;
+}
+
+body {
+  background-color: #e9edee;
+}
+
+#offers {
+  background-color: #f56600;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: white;
+  margin-top: 30px;
+}
+
+.img-container {
+  background-image: url(../images/bg-image.png);
+  background-size: cover;
+  height: 200px;
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.container-1 {
+  margin-bottom: 30px;
+}
+
+.container-2 {
+  background-color: white;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+
+.container-2 h3 {
+  font-size: 1.2rem;
+}
+
+.cards {
+  text-align: center;
+}
+
+.cards img {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.articles img {
+  width: 100%;
+}
+
+.articles-p {
+  padding: 5px 0 40px 0;
+}
+
+/* FOOTER */
+
+footer a {
+  color: white;
+  font-weight: bold;
+}
+
+#footer-logo {
+  padding-top: 20px;
+}
+
+footer img {
+  width: 200px;
+}
