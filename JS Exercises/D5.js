@@ -124,7 +124,7 @@ const numericArray = [
 ];
 
 let i = 0;
-while (i < 14) {
+while (i < numericArray.length && numericArray[i] !== 32) {
   console.log(numericArray[i]);
   i++;
 }
